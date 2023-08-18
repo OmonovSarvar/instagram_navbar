@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shojumaru&display=swap');
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    height: 87px;
+    width: 1920px;
+    border-bottom: solid rgba(80, 99, 102, 0.4);
+}
+.context{
+    font-family: 'Pacifico', cursive;
+    margin-left: 25px;
+    margin-right: 310px;
+    
+}
+.search{
+    outline: none;
+    margin-right: 110px;
+}
+input{
+    border: solid rgba(80, 99, 102, 0.4);
+    border-radius: 6px;
+    height: 30px;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.iconslinks{
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+    font-size: 29px;
+}
+i{
+    color: black;
+}
